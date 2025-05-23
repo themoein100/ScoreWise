@@ -6,63 +6,60 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		305BC60C2DDB72DC007A6E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305BC60B2DDB72DC007A6E50 /* Assets.xcassets */; };
+		30A379D32DDD412A000493CE /* Assets 2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A379CE2DDD412A000493CE /* Assets 2.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		30351F1F2DE0842A0054A7DF /* PBXContainerItemProxy */ = {
+		300A53FF2DD8BCA700A9BC6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 30351F092DE084280054A7DF /* Project object */;
+			containerPortal = 300A53E92DD8BCA600A9BC6A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30351F102DE084290054A7DF;
-			remoteInfo = ExamScoreApp;
+			remoteGlobalIDString = 300A53F02DD8BCA600A9BC6A;
+			remoteInfo = "HelloWorld HelloWorld HelloWorld Hello word";
 		};
-		30351F292DE0842A0054A7DF /* PBXContainerItemProxy */ = {
+		300A54092DD8BCA700A9BC6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 30351F092DE084280054A7DF /* Project object */;
+			containerPortal = 300A53E92DD8BCA600A9BC6A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30351F102DE084290054A7DF;
-			remoteInfo = ExamScoreApp;
+			remoteGlobalIDString = 300A53F02DD8BCA600A9BC6A;
+			remoteInfo = "HelloWorld HelloWorld HelloWorld Hello word";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30351F112DE084290054A7DF /* ExamScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		30351F1E2DE0842A0054A7DF /* ExamScoreAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamScoreAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30351F282DE0842A0054A7DF /* ExamScoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamScoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		300A53F12DD8BCA600A9BC6A /* project 1 .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project 1 .app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300A53FE2DD8BCA700A9BC6A /* project 1 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project 1 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300A54082DD8BCA700A9BC6A /* project 1 UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project 1 UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		305BC60B2DDB72DC007A6E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A379CE2DDD412A000493CE /* Assets 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		30351F132DE084290054A7DF /* ExamScoreApp */ = {
+		300A53F32DD8BCA600A9BC6A /* project 1  */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExamScoreApp;
-			sourceTree = "<group>";
-		};
-		30351F212DE0842A0054A7DF /* ExamScoreAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExamScoreAppTests;
-			sourceTree = "<group>";
-		};
-		30351F2B2DE0842A0054A7DF /* ExamScoreAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExamScoreAppUITests;
+			path = "project 1 ";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30351F0E2DE084290054A7DF /* Frameworks */ = {
+		300A53EE2DD8BCA600A9BC6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30351F1B2DE0842A0054A7DF /* Frameworks */ = {
+		300A53FB2DD8BCA700A9BC6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30351F252DE0842A0054A7DF /* Frameworks */ = {
+		300A54052DD8BCA700A9BC6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +69,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30351F082DE084280054A7DF = {
+		300A53E82DD8BCA600A9BC6A = {
 			isa = PBXGroup;
 			children = (
-				30351F132DE084290054A7DF /* ExamScoreApp */,
-				30351F212DE0842A0054A7DF /* ExamScoreAppTests */,
-				30351F2B2DE0842A0054A7DF /* ExamScoreAppUITests */,
-				30351F122DE084290054A7DF /* Products */,
+				30A379CE2DDD412A000493CE /* Assets 2.xcassets */,
+				305BC60B2DDB72DC007A6E50 /* Assets.xcassets */,
+				300A53F32DD8BCA600A9BC6A /* project 1  */,
+				300A53F22DD8BCA600A9BC6A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30351F122DE084290054A7DF /* Products */ = {
+		300A53F22DD8BCA600A9BC6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30351F112DE084290054A7DF /* ExamScoreApp.app */,
-				30351F1E2DE0842A0054A7DF /* ExamScoreAppTests.xctest */,
-				30351F282DE0842A0054A7DF /* ExamScoreAppUITests.xctest */,
+				300A53F12DD8BCA600A9BC6A /* project 1 .app */,
+				300A53FE2DD8BCA700A9BC6A /* project 1 Tests.xctest */,
+				300A54082DD8BCA700A9BC6A /* project 1 UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +92,130 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30351F102DE084290054A7DF /* ExamScoreApp */ = {
+		300A53F02DD8BCA600A9BC6A /* project 1  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30351F322DE0842A0054A7DF /* Build configuration list for PBXNativeTarget "ExamScoreApp" */;
+			buildConfigurationList = 300A54122DD8BCA700A9BC6A /* Build configuration list for PBXNativeTarget "project 1 " */;
 			buildPhases = (
-				30351F0D2DE084290054A7DF /* Sources */,
-				30351F0E2DE084290054A7DF /* Frameworks */,
-				30351F0F2DE084290054A7DF /* Resources */,
+				300A53ED2DD8BCA600A9BC6A /* Sources */,
+				300A53EE2DD8BCA600A9BC6A /* Frameworks */,
+				300A53EF2DD8BCA600A9BC6A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				30351F132DE084290054A7DF /* ExamScoreApp */,
+				300A53F32DD8BCA600A9BC6A /* project 1  */,
 			);
-			name = ExamScoreApp;
+			name = "project 1 ";
 			packageProductDependencies = (
 			);
-			productName = ExamScoreApp;
-			productReference = 30351F112DE084290054A7DF /* ExamScoreApp.app */;
+			productName = "HelloWorld HelloWorld HelloWorld Hello word";
+			productReference = 300A53F12DD8BCA600A9BC6A /* project 1 .app */;
 			productType = "com.apple.product-type.application";
 		};
-		30351F1D2DE0842A0054A7DF /* ExamScoreAppTests */ = {
+		300A53FD2DD8BCA700A9BC6A /* project 1 Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30351F352DE0842A0054A7DF /* Build configuration list for PBXNativeTarget "ExamScoreAppTests" */;
+			buildConfigurationList = 300A54152DD8BCA700A9BC6A /* Build configuration list for PBXNativeTarget "project 1 Tests" */;
 			buildPhases = (
-				30351F1A2DE0842A0054A7DF /* Sources */,
-				30351F1B2DE0842A0054A7DF /* Frameworks */,
-				30351F1C2DE0842A0054A7DF /* Resources */,
+				300A53FA2DD8BCA700A9BC6A /* Sources */,
+				300A53FB2DD8BCA700A9BC6A /* Frameworks */,
+				300A53FC2DD8BCA700A9BC6A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30351F202DE0842A0054A7DF /* PBXTargetDependency */,
+				300A54002DD8BCA700A9BC6A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				30351F212DE0842A0054A7DF /* ExamScoreAppTests */,
-			);
-			name = ExamScoreAppTests;
+			name = "project 1 Tests";
 			packageProductDependencies = (
 			);
-			productName = ExamScoreAppTests;
-			productReference = 30351F1E2DE0842A0054A7DF /* ExamScoreAppTests.xctest */;
+			productName = "HelloWorld HelloWorld HelloWorld Hello wordTests";
+			productReference = 300A53FE2DD8BCA700A9BC6A /* project 1 Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		30351F272DE0842A0054A7DF /* ExamScoreAppUITests */ = {
+		300A54072DD8BCA700A9BC6A /* project 1 UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30351F382DE0842A0054A7DF /* Build configuration list for PBXNativeTarget "ExamScoreAppUITests" */;
+			buildConfigurationList = 300A54182DD8BCA700A9BC6A /* Build configuration list for PBXNativeTarget "project 1 UITests" */;
 			buildPhases = (
-				30351F242DE0842A0054A7DF /* Sources */,
-				30351F252DE0842A0054A7DF /* Frameworks */,
-				30351F262DE0842A0054A7DF /* Resources */,
+				300A54042DD8BCA700A9BC6A /* Sources */,
+				300A54052DD8BCA700A9BC6A /* Frameworks */,
+				300A54062DD8BCA700A9BC6A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30351F2A2DE0842A0054A7DF /* PBXTargetDependency */,
+				300A540A2DD8BCA700A9BC6A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				30351F2B2DE0842A0054A7DF /* ExamScoreAppUITests */,
-			);
-			name = ExamScoreAppUITests;
+			name = "project 1 UITests";
 			packageProductDependencies = (
 			);
-			productName = ExamScoreAppUITests;
-			productReference = 30351F282DE0842A0054A7DF /* ExamScoreAppUITests.xctest */;
+			productName = "HelloWorld HelloWorld HelloWorld Hello wordUITests";
+			productReference = 300A54082DD8BCA700A9BC6A /* project 1 UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30351F092DE084280054A7DF /* Project object */ = {
+		300A53E92DD8BCA600A9BC6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					30351F102DE084290054A7DF = {
+					300A53F02DD8BCA600A9BC6A = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					30351F1D2DE0842A0054A7DF = {
+					300A53FD2DD8BCA700A9BC6A = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 30351F102DE084290054A7DF;
+						TestTargetID = 300A53F02DD8BCA600A9BC6A;
 					};
-					30351F272DE0842A0054A7DF = {
+					300A54072DD8BCA700A9BC6A = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 30351F102DE084290054A7DF;
+						TestTargetID = 300A53F02DD8BCA600A9BC6A;
 					};
 				};
 			};
-			buildConfigurationList = 30351F0C2DE084280054A7DF /* Build configuration list for PBXProject "ExamScoreApp" */;
+			buildConfigurationList = 300A53EC2DD8BCA600A9BC6A /* Build configuration list for PBXProject "project 1 " */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 30351F082DE084280054A7DF;
+			mainGroup = 300A53E82DD8BCA600A9BC6A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 30351F122DE084290054A7DF /* Products */;
+			productRefGroup = 300A53F22DD8BCA600A9BC6A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30351F102DE084290054A7DF /* ExamScoreApp */,
-				30351F1D2DE0842A0054A7DF /* ExamScoreAppTests */,
-				30351F272DE0842A0054A7DF /* ExamScoreAppUITests */,
+				300A53F02DD8BCA600A9BC6A /* project 1  */,
+				300A53FD2DD8BCA700A9BC6A /* project 1 Tests */,
+				300A54072DD8BCA700A9BC6A /* project 1 UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30351F0F2DE084290054A7DF /* Resources */ = {
+		300A53EF2DD8BCA600A9BC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A379D32DDD412A000493CE /* Assets 2.xcassets in Resources */,
+				305BC60C2DDB72DC007A6E50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300A53FC2DD8BCA700A9BC6A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30351F1C2DE0842A0054A7DF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30351F262DE0842A0054A7DF /* Resources */ = {
+		300A54062DD8BCA700A9BC6A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +225,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30351F0D2DE084290054A7DF /* Sources */ = {
+		300A53ED2DD8BCA600A9BC6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30351F1A2DE0842A0054A7DF /* Sources */ = {
+		300A53FA2DD8BCA700A9BC6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30351F242DE0842A0054A7DF /* Sources */ = {
+		300A54042DD8BCA700A9BC6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +249,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		30351F202DE0842A0054A7DF /* PBXTargetDependency */ = {
+		300A54002DD8BCA700A9BC6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30351F102DE084290054A7DF /* ExamScoreApp */;
-			targetProxy = 30351F1F2DE0842A0054A7DF /* PBXContainerItemProxy */;
+			target = 300A53F02DD8BCA600A9BC6A /* project 1  */;
+			targetProxy = 300A53FF2DD8BCA700A9BC6A /* PBXContainerItemProxy */;
 		};
-		30351F2A2DE0842A0054A7DF /* PBXTargetDependency */ = {
+		300A540A2DD8BCA700A9BC6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30351F102DE084290054A7DF /* ExamScoreApp */;
-			targetProxy = 30351F292DE0842A0054A7DF /* PBXContainerItemProxy */;
+			target = 300A53F02DD8BCA600A9BC6A /* project 1  */;
+			targetProxy = 300A54092DD8BCA700A9BC6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		30351F302DE0842A0054A7DF /* Debug */ = {
+		300A54102DD8BCA700A9BC6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +297,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = DBKLYT57GR;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -333,7 +325,7 @@
 			};
 			name = Debug;
 		};
-		30351F312DE0842A0054A7DF /* Release */ = {
+		300A54112DD8BCA700A9BC6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +360,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = DBKLYT57GR;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -390,14 +381,13 @@
 			};
 			name = Release;
 		};
-		30351F332DE0842A0054A7DF /* Debug */ = {
+		300A54132DD8BCA700A9BC6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DBKLYT57GR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -410,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moein.exam.ExamScoreApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "moein.HelloWorld-HelloWorld-HelloWorld-Hello-word";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -418,14 +408,13 @@
 			};
 			name = Debug;
 		};
-		30351F342DE0842A0054A7DF /* Release */ = {
+		300A54142DD8BCA700A9BC6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DBKLYT57GR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -438,7 +427,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moein.exam.ExamScoreApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "moein.HelloWorld-HelloWorld-HelloWorld-Hello-word";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,118 +435,114 @@
 			};
 			name = Release;
 		};
-		30351F362DE0842A0054A7DF /* Debug */ = {
+		300A54162DD8BCA700A9BC6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DBKLYT57GR;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moein.exam.ExamScoreAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "moein.HelloWorld-HelloWorld-HelloWorld-Hello-wordTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamScoreApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExamScoreApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project 1 .app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project 1 ";
 			};
 			name = Debug;
 		};
-		30351F372DE0842A0054A7DF /* Release */ = {
+		300A54172DD8BCA700A9BC6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DBKLYT57GR;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moein.exam.ExamScoreAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "moein.HelloWorld-HelloWorld-HelloWorld-Hello-wordTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamScoreApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExamScoreApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project 1 .app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project 1 ";
 			};
 			name = Release;
 		};
-		30351F392DE0842A0054A7DF /* Debug */ = {
+		300A54192DD8BCA700A9BC6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DBKLYT57GR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moein.exam.ExamScoreAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "moein.HelloWorld-HelloWorld-HelloWorld-Hello-wordUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ExamScoreApp;
+				TEST_TARGET_NAME = "HelloWorld HelloWorld HelloWorld Hello word";
 			};
 			name = Debug;
 		};
-		30351F3A2DE0842A0054A7DF /* Release */ = {
+		300A541A2DD8BCA700A9BC6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DBKLYT57GR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moein.exam.ExamScoreAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "moein.HelloWorld-HelloWorld-HelloWorld-Hello-wordUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ExamScoreApp;
+				TEST_TARGET_NAME = "HelloWorld HelloWorld HelloWorld Hello word";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30351F0C2DE084280054A7DF /* Build configuration list for PBXProject "ExamScoreApp" */ = {
+		300A53EC2DD8BCA600A9BC6A /* Build configuration list for PBXProject "project 1 " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30351F302DE0842A0054A7DF /* Debug */,
-				30351F312DE0842A0054A7DF /* Release */,
+				300A54102DD8BCA700A9BC6A /* Debug */,
+				300A54112DD8BCA700A9BC6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30351F322DE0842A0054A7DF /* Build configuration list for PBXNativeTarget "ExamScoreApp" */ = {
+		300A54122DD8BCA700A9BC6A /* Build configuration list for PBXNativeTarget "project 1 " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30351F332DE0842A0054A7DF /* Debug */,
-				30351F342DE0842A0054A7DF /* Release */,
+				300A54132DD8BCA700A9BC6A /* Debug */,
+				300A54142DD8BCA700A9BC6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30351F352DE0842A0054A7DF /* Build configuration list for PBXNativeTarget "ExamScoreAppTests" */ = {
+		300A54152DD8BCA700A9BC6A /* Build configuration list for PBXNativeTarget "project 1 Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30351F362DE0842A0054A7DF /* Debug */,
-				30351F372DE0842A0054A7DF /* Release */,
+				300A54162DD8BCA700A9BC6A /* Debug */,
+				300A54172DD8BCA700A9BC6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30351F382DE0842A0054A7DF /* Build configuration list for PBXNativeTarget "ExamScoreAppUITests" */ = {
+		300A54182DD8BCA700A9BC6A /* Build configuration list for PBXNativeTarget "project 1 UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30351F392DE0842A0054A7DF /* Debug */,
-				30351F3A2DE0842A0054A7DF /* Release */,
+				300A54192DD8BCA700A9BC6A /* Debug */,
+				300A541A2DD8BCA700A9BC6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 30351F092DE084280054A7DF /* Project object */;
+	rootObject = 300A53E92DD8BCA600A9BC6A /* Project object */;
 }
