@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		305BC60C2DDB72DC007A6E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305BC60B2DDB72DC007A6E50 /* Assets.xcassets */; };
-		30A379D32DDD412A000493CE /* Assets 2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A379CE2DDD412A000493CE /* Assets 2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +32,6 @@
 		300A53FE2DD8BCA700A9BC6A /* project 1 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project 1 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		300A54082DD8BCA700A9BC6A /* project 1 UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project 1 UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		305BC60B2DDB72DC007A6E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30A379CE2DDD412A000493CE /* Assets 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -72,7 +70,6 @@
 		300A53E82DD8BCA600A9BC6A = {
 			isa = PBXGroup;
 			children = (
-				30A379CE2DDD412A000493CE /* Assets 2.xcassets */,
 				305BC60B2DDB72DC007A6E50 /* Assets.xcassets */,
 				300A53F32DD8BCA600A9BC6A /* project 1  */,
 				300A53F22DD8BCA600A9BC6A /* Products */,
@@ -203,7 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A379D32DDD412A000493CE /* Assets 2.xcassets in Resources */,
 				305BC60C2DDB72DC007A6E50 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

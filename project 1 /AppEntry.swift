@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct YourAppNameApp: App {
+struct ScoreWiseApp: App {
     @AppStorage("isDarkMode") private var isDarkMode: Bool = false
 
     @StateObject private var appState = AppStateViewModel()
