@@ -10,7 +10,7 @@ struct MainTabView: View {
 
     var body: some View {
         TabView(selection: $selectedTab) {
-            HomeView()
+            HomeView(scoreVM: scoreVM)
                 .tabItem {
                     Label("خانه", systemImage: "house.fill")
                 }
